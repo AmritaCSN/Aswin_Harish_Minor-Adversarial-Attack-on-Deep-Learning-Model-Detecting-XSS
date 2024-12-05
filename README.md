@@ -35,6 +35,12 @@ Install the following libraries before running the project:
   - **Python** (for Python environment support)  
   - **Jupyter** (for running notebooks in VS Code)
 --------
+## Threat Model
+
+Below is the threat model diagram for the project:
+
+![Threat Model](/src/img/ThreatModel_final.png)
+--------
 ### **Files and Directories**
 
 1. **`src/`**: Contains the dataset file:
