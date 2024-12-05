@@ -34,6 +34,12 @@ Install the following libraries before running the project:
 - **VS Code Extensions**:
   - **Python** (for Python environment support)  
   - **Jupyter** (for running notebooks in VS Code)
+ 
+You can install them using (applicable for installing additional libraries):
+
+```bash
+pip install numpy pandas scikit-learn matplotlib jupyter
+```
 --------
 ## Threat Model
 
