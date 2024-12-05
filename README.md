@@ -39,7 +39,7 @@ Install the following libraries before running the project:
 
 Below is the threat model diagram for the project:
 
-![Threat Model](/src/img/ThreatModel_final.png)
+![Threat Model](/src/img/ThreatModel_final.jpg)
 --------
 ### **Files and Directories**
 
