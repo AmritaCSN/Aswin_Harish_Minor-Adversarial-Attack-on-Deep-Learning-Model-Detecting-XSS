@@ -2,7 +2,7 @@
 ## **Overview**  
 Cross-Site Scripting (XSS) attacks remain a critical security threat in web applications, enabling malicious actors to inject harmful scripts into webpages viewed by other users. These attacks can compromise sensitive data, execute unauthorized actions, or even hijack user accounts.
 
-In this project, we develop a machine learning-based approach to detect XSS payloads using a Recurrent Neural Network (RNN) model. RNNs, with their ability to understand sequential data, are well-suited for analyzing the character-level patterns inherent in XSS payloads. This approach aims to classify payloads as either malicious or non-malicious, providing a robust layer of defense against such vulnerabilities.
+In this project, we develop a machine learning-based approach to detect XSS payloads using a deep learning model. The aims is to weaken the classification of the XSS detection model such that adversarial samples are to be identified as benign and evades the detection model while maintaining the functionality of the XSS payload on the target application(DVWA).
 
 However, conventional machine learning models often struggle to detect adversarial inputs crafted to deceive the model by subtly altering the original data. To address this, we explore the generation of adversarial XSS payloads through character-level perturbations, to evaluate the model's robustness. These adversarial payloads mimic real-world obfuscation techniques attackers use to bypass detection systems and ensuring functionality of payloads remain even after being adversarially perturbed.
 
