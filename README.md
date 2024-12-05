@@ -35,7 +35,7 @@ Install the following libraries before running the project:
   - **Python** (for Python environment support)  
   - **Jupyter** (for running notebooks in VS Code)
 --------
-### **Explanation of Files and Directories**
+### **Files and Directories**
 
 1. **`src/`**: Contains the dataset file:
    - **`XSS_Dataset.csv`**: A CSV file containing XSS payloads and their corresponding labels (malicious or non-malicious).
