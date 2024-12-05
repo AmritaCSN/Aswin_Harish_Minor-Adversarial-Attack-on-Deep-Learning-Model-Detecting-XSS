@@ -41,6 +41,10 @@ Below is the threat model diagram for the project:
 
 ![Threat Model](/src/img/ThreatModel_final.jpg)
 --------
+## Dataset Used
+-XSS_Dataset.csv:Compilation of Portswigger and OWASP XSS cheatsheet 
+
+--------
 ## Files and Directories
 
 - **src/**: Contains the dataset and related files
