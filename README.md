@@ -35,11 +35,13 @@ Install the following libraries before running the project:
   - **Python** (for Python environment support)  
   - **Jupyter** (for running notebooks in VS Code)
 --------
-# **Directory Structure**
-project-name/
-├── src/                # Contains the dataset
-│   └── XSS_Dataset.csv # CSV file with XSS payloads and labels
-├── README.md           # Project documentation
-└── code.ipynb          # Jupyter Notebook with complete code implementation
+### **Explanation of Files and Directories**
+
+1. **`src/`**: Contains the dataset file:
+   - **`XSS_Dataset.csv`**: A CSV file containing XSS payloads and their corresponding labels (malicious or non-malicious).
+
+2. **`code.ipynb`**: A Jupyter Notebook that includes the full code implementation, including data preprocessing, model training, and adversarial sample generation.
+
+3. **`README.md`**: This file, containing the project documentation, including setup instructions, usage, and details about the model and adversarial attacks.
 
 -------
