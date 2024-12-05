@@ -46,7 +46,7 @@ Below is the threat model diagram for the project:
 - **src/**: Contains the dataset and related files
   - **XSS_Dataset.csv**: A CSV file containing XSS payloads and their corresponding labels (malicious or non-malicious).
   - **img/**: Directory containing project-related images
-    - **ThreatModel_final.png**: A diagram illustrating the threat model for the XSS detection system.
+    - **ThreatModel_final.png**: A diagram illustrating the threat model.
 
 - **code.ipynb**: A Jupyter Notebook that includes the full code implementation, including data preprocessing, model training, and adversarial sample generation.
 
